@@ -3,22 +3,31 @@ package com.example.sandbox.response;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ApiResponse<M, D> extends BaseMetaData {
+public class ApiResponse<M, D> {
 
     private M meta;
     private List<D> data;
 
     public ApiResponse() {
+        this.data = new ArrayList<>();
+    }
+
+    public ApiResponse(M meta) {
+        this.meta = meta;
+        this.data = new ArrayList<>();
     }
 
     public ApiResponse(M meta, D data) {
         this.meta = meta;
         this.data = new ArrayList<>();
-        this.data.add(data);
+        if (data != null) {
+            this.data.add(data);
+        }
     }
 
-    public ApiResponse(M meta) {
+    public ApiResponse(M meta, List<D> data) {
         this.meta = meta;
+        this.data = data == null ? new ArrayList<>() : data;
     }
 
     public M getMeta() {
