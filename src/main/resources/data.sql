@@ -1,0 +1,32 @@
+INSERT INTO sandbox_items (id, name, category) VALUES (1, 'Item 1', 'Category A');
+INSERT INTO sandbox_items (id, name, category) VALUES (2, 'Item 2', 'Category A');
+INSERT INTO sandbox_items (id, name, category) VALUES (3, 'Item 3', 'Category A');
+INSERT INTO sandbox_items (id, name, category) VALUES (4, 'Item 4', 'Category A');
+INSERT INTO sandbox_items (id, name, category) VALUES (5, 'Item 5', 'Category A');
+INSERT INTO sandbox_items (id, name, category) VALUES (6, 'Item 6', 'Category A');
+INSERT INTO sandbox_items (id, name, category) VALUES (7, 'Item 7', 'Category A');
+INSERT INTO sandbox_items (id, name, category) VALUES (8, 'Item 8', 'Category A');
+INSERT INTO sandbox_items (id, name, category) VALUES (9, 'Item 9', 'Category A');
+INSERT INTO sandbox_items (id, name, category) VALUES (10, 'Item 10', 'Category A');
+
+INSERT INTO sandbox_items (id, name, category) VALUES (11, 'Item 11', 'Category B');
+INSERT INTO sandbox_items (id, name, category) VALUES (12, 'Item 12', 'Category B');
+INSERT INTO sandbox_items (id, name, category) VALUES (13, 'Item 13', 'Category B');
+INSERT INTO sandbox_items (id, name, category) VALUES (14, 'Item 14', 'Category B');
+INSERT INTO sandbox_items (id, name, category) VALUES (15, 'Item 15', 'Category B');
+INSERT INTO sandbox_items (id, name, category) VALUES (16, 'Item 16', 'Category B');
+INSERT INTO sandbox_items (id, name, category) VALUES (17, 'Item 17', 'Category B');
+INSERT INTO sandbox_items (id, name, category) VALUES (18, 'Item 18', 'Category B');
+INSERT INTO sandbox_items (id, name, category) VALUES (19, 'Item 19', 'Category B');
+INSERT INTO sandbox_items (id, name, category) VALUES (20, 'Item 20', 'Category B');
+
+INSERT INTO sandbox_items (id, name, category) VALUES (21, 'Item 21', 'Category C');
+INSERT INTO sandbox_items (id, name, category) VALUES (22, 'Item 22', 'Category C');
+INSERT INTO sandbox_items (id, name, category) VALUES (23, 'Item 23', 'Category C');
+INSERT INTO sandbox_items (id, name, category) VALUES (24, 'Item 24', 'Category C');
+INSERT INTO sandbox_items (id, name, category) VALUES (25, 'Item 25', 'Category C');
+INSERT INTO sandbox_items (id, name, category) VALUES (26, 'Item 26', 'Category C');
+INSERT INTO sandbox_items (id, name, category) VALUES (27, 'Item 27', 'Category C');
+INSERT INTO sandbox_items (id, name, category) VALUES (28, 'Item 28', 'Category C');
+INSERT INTO sandbox_items (id, name, category) VALUES (29, 'Item 29', 'Category C');
+INSERT INTO sandbox_items (id, name, category) VALUES (30, 'Item 30', 'Category C');
